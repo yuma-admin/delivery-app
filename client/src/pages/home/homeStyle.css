@@ -1,0 +1,39 @@
+.homeTop {
+    background-color: rgb(104,187,89);
+    height: 500px;
+}
+
+.logoContainer {
+    margin-top: 5vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.iPotLogo {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    -webkit-text-stroke: 3px black;
+    font-size: 200px;
+}
+
+.formContainer {
+    text-align: center;
+}
+
+.whiteBackground {
+    background-color: white;
+}
+
+.checklist {
+    text-align: center;
+}
+
+.checklistNumber {
+    font-size: 120px;
+    font-family: 'Passion One', cursive;
+}
+
+.submitButton {
+    color: white;
+    background-color: rgb(30,86,49);
+}
