@@ -15,6 +15,9 @@
 
 .userLocator {
     cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 2px;
+    margin: 2px;
 }
 
 .search-input {
@@ -23,5 +26,7 @@
 
 .dropdownContainer {
     width:auto;
+    background-color: aquamarine;
     color: antiquewhite;
 }
+

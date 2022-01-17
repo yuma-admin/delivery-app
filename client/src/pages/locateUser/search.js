@@ -61,7 +61,7 @@ return (
         >
         {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
         <div className='searchContainer'>
-        <button className='userLocator' onClick={() => returnProducts()}><BsGeoAlt/></button>
+        {/* <button className='userLocator' onClick={() => returnProducts()}><BsGeoAlt/></button> */}
             <input className='search-input'
             {...getInputProps({
                 placeholder: 'Enter Address Here ...',
@@ -72,10 +72,10 @@ return (
                 {loading && <div>Loading...</div>}
                 {suggestions.map(suggestion => {
                 const style = {
-                    backgroundColor: suggestion.active ? "rgb(88, 89, 91)" : "rgb(60, 60, 1)",
-                    color: 'white',
+                    backgroundColor: suggestion.active ? "white" : "rgb(104,187,89)",
+                    color: 'black',
                     'text-align': 'left',
-                    'padding-left': "40px",
+                    'padding-left': "15px",
                     fontFamily: '"Montserrat", sans-serif'
                 };
                 return (
