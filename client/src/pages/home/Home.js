@@ -1,5 +1,6 @@
 import "./homeStyle.css"
 import React from "react";
+import Search from "../locateUser/search";
 
 function Home() {
 
@@ -15,12 +16,13 @@ function Home() {
                     </div>
                 
                     <div className="formContainer">
-                        <form className="form">
+                        {/* <form className="form">
                             <input type="text" placeholder="Enter Your Address" >
                             </input>
                             <input type="submit" className="submitButton">
                             </input>
-                        </form>
+                        </form> */}    
+                    <Search />    
                     </div>
                 </div>
             </div>

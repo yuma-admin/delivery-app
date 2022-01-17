@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap");
+
+.searchBar {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto 0;
+    z-index: 1;
+}
+
+
+.searchContainer {
+    justify-content: space-between;
+    margin: auto;
+}
+
+.userLocator {
+    cursor: pointer;
+}
+
+.search-input {
+    width: 50%;
+}
+
+.dropdownContainer {
+    width:auto;
+    color: antiquewhite;
+}
